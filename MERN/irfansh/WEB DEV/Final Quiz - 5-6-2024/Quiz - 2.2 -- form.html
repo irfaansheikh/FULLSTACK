@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="formscript.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <center><h1>Form</h1></center>
+<form onSubmit="validate(); return false;">
+	<center>
+
+<fieldset style="width:20%;color:black">
+			<legend> Details</legend>
+			<table width="50%">		
+	<table>
+		<tr>
+			<td><label>Full Name <font color="red">*</font>  </label></td>
+			<td><input type="text" name="n" id="fname" placeholder="Enter your Full name"> <br>
+			<span id="error"></span>		
+			</td>
+		</tr>
+		<tr>
+			<td><label>Password<font color="red">*</font></label></td>
+			<td><input type="password" name="pass" placeholder="Enter your password" required></td>
+		</tr>
+		
+		<tr>
+			<td><label>Email<font color="red">*</font></label></td>
+			<td><input type="email" name="email" placeholder="abc@gmail.com" required></td>
+		</tr>
+        <tr>
+			<td><label>Gender</label></td>
+			<td>
+			<input type="radio" name="Gender" value="male"> Male
+			<input type="radio" name="Gender" value="female"> Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td><label>Interests</label></td>
+			<td>
+			<input type="checkbox" name="ch" value="Reading"> Web Development <br>
+			<input type="checkbox" name="ch1" value="Sleeping"> Graphic Design
+			</td>
+		</tr>
+
+        <tr>
+			<td><label>Comments<font color="red" required>*</font></label></td>
+			<td>
+			<textarea cols=20 rows=10></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="text-align:center">
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+			</td>
+		</tr>
+		
+	</table>
+	</center>
+</fieldset>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>Forms</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="form.html">Form</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+			</ul>
+		</div>
+<h1>Forms</h1>
+<form>
+<center>
+<fieldset style="width:20%;color:red">
+	<legend>Student Details</legend>
+	
+	<table width="50%">
+	
+		<tr>
+			<td><label>Name<font color="red">*</font></label></td>
+			<td><input type="text" name="name" placeholder="Enter your name" required></td>
+		</tr>
+		<tr>
+			<td><label>Password<font color="red">*</font></label></td>
+			<td><input type="password" name="pass" placeholder="Enter your password" required></td>
+		</tr>
+		
+		<tr>
+			<td><label>Email<font color="red">*</font></label></td>
+			<td><input type="email" name="email" placeholder="abc@gmail.com" required></td>
+		</tr>
+		
+		<tr>
+			<td><label>Date of birth</label></td>
+			<td><input type="date" name="dob"></td>
+		</tr>
+		
+		<tr>
+			<td><label>color</label></td>
+			<td><input type="color" name="c"></td>
+		</tr>
+		<tr>
+			<td><label>Upload File</label></td>
+			<td><input type="file" name="f"></td>
+		</tr>
+		<tr>
+			<td><label>Province</label></td>
+			<td>
+				<select name="province">
+					<option>Punjab</option>
+					<option>Sindh</option>
+					<option>KPK</option>
+					<option>Balochistan</option>
+				</select>
+			</td>
+		</tr>
+	
+		<tr>
+			<td><label>Gender</label></td>
+			<td>
+			<input type="radio" name="Gender" value="male"> Male
+			<input type="radio" name="Gender" value="female"> Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td><label>Hobbies</label></td>
+			<td>
+			<input type="checkbox" name="ch" value="Reading"> Reading <br>
+			<input type="checkbox" name="ch1" value="Sleeping"> Sleeping
+			</td>
+		</tr>
+	
+		<tr>
+			<td><label>Address</label></td>
+			<td>
+			<textarea cols=20 rows=5></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="text-align:center">
+			<input type="submit" value="Enter data">
+			<input type="reset" value="Clear">
+			</td>
+		</tr>
+		
+	</table>
+	</center>
+</fieldset>
+</form>
+
+</body>
+</html>
