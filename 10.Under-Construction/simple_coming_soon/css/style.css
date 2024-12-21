@@ -1,0 +1,680 @@
+/*--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*-- Reset Code --*/
+    html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+    article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+    ol,ul{list-style:none;padding:0;margin:0;}
+    blockquote,q{quotes:none;}
+    blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+    table{border-collapse:collapse;border-spacing:0;}
+    /* start editing from here */
+    a{text-decoration:none;}
+    .txt-rt{text-align:right;}/* text align right */
+    .txt-lt{text-align:left;}/* text align left */
+    .txt-center{text-align:center;}/* text align center */
+    .float-rt{float:right;}/* float right */
+    .float-lt{float:left;}/* float left */
+    .clear{clear:both;}/* clear float */
+    .pos-relative{position:relative;}/* Position Relative */
+    .pos-absolute{position:absolute;}/* Position Absolute */
+    .vertical-base{ vertical-align:baseline;}/* vertical align baseline */
+    .vertical-top{  vertical-align:top;}/* vertical align top */
+    .underline{ padding-bottom:5px; border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+    nav.vertical ul li{ display:block;}/* vertical menu */
+    nav.horizontal ul li{   display: inline-block;}/* horizontal menu */
+    img{max-width:100%;}
+    /*img[width],img[height]{width:auto;height:auto;} wordpress hack to reset the attributes (while making responsive) */
+
+/*-- Reset Code --*/
+body {
+    font-family: 'Philosopher', sans-serif;
+    color: #fff;
+    background: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+a, a:hover ,.agileits_newsletter input[type="submit"]{    
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+h1.agile-head {
+    font-size: 3em;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 500;
+    margin: 2em 0 0;
+    letter-spacing: 3px;
+}
+.wrapper {
+    box-sizing: border-box;
+    width: 55%;
+    margin: 5em auto 6em;
+}
+.app-text {
+    margin-bottom: 30px;
+}
+
+.app-text li {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.app-text li.li1 {
+    color: #38ffd7;
+}
+.timer.w3ls.days,.aits.timer,.agile.timer {
+    color: #fff;
+}
+
+li.li2 {
+    color: #fc39b9;
+    margin: 0 80px;
+}
+
+li.li3 {
+    color: #fced39;
+}
+.clock {
+}
+.timer {
+    font-size: 5em;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 5px;
+    color:#e8e21e;
+}
+.text {
+    font-size: 1em;
+    border-style: ridge;
+    COlor: #fff;
+    padding-bottom: 1em;
+}
+.clock .column {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.days {
+    display: none;
+}
+.content2-w3-agileits {
+    margin: 3em 0;
+}
+.agileits_newsletter {
+    margin: 4em 0 3em;
+}
+.agileits_newsletter h2{
+	color: #fff;
+    text-transform: capitalize;
+    font-size: 1em;
+	letter-spacing:1px;
+	line-height:1.5;
+}
+.agileits_newsletter form {
+    width: 70%;
+    margin: 2em auto 3em;
+    border: 1px solid #fff;
+}
+.agileits_newsletter input[type="email"] {
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 1em;
+    color: #212121;
+    padding: 0.64em;
+    width: 66%;
+}
+.agileits_newsletter input[type="submit"]{
+	outline: none;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 30%;
+    text-transform: uppercase;
+    cursor: pointer;
+	background:transparent;
+	color:#fff;
+	font-family: 'Philosopher', sans-serif;
+	letter-spacing:1px;
+}
+.agileits_newsletter input[type="submit"]:hover {
+    color: #e8e21e;
+}
+.wthree-social-icons {
+    margin-top: 4em;
+}
+.agileinfo_social_icons li{
+	display:inline-block;
+	margin:0 .2em;
+}
+.agileinfo_social_icons li a {
+    width: 35px;
+    height: 35px;
+    border: 3px solid #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.agileinfo_social_icons li a:hover{
+	color:#fff;
+}
+.agileinfo_social_icons li a i{
+	line-height:2.2;
+}
+.w3_agileits_facebook{
+	color: #fff;
+	background: #3b5998;
+}
+.w3_agileits_facebook:hover{
+	background: transparent;
+}
+.wthree_twitter{
+	color: #fff;
+	background: #1da1f2;
+}
+.wthree_twitter:hover{
+	color: #1da1f2;
+	background:transparent;
+}
+.agileinfo_google{
+	background: #dd4b39;
+	color:#fff;
+}
+.agileinfo_google:hover{
+	background: transparent;
+	color:#fff;
+}
+.agileits_pinterest{
+	background: #bd081c;
+	color:#fff;
+}
+.agileits_pinterest:hover{
+	background: transparent;
+	color: #fff;
+}
+.w3ls_rss{
+	background: #f26522;
+	color:#fff;
+}
+.w3ls_rss:hover{
+	background:transparent;
+	color: #f26522;
+}
+
+.agile-info-form input[type="submit"]:hover {
+	background:#0386cf;  
+	border:none;
+	transition:all 0.8s ease-in-out;
+} 
+.agileits-w3layouts-copyright p {
+    color: #fff;
+    font-size: 1em;
+	margin-bottom:2em;
+	letter-spacing:1px;
+	}
+.agileits-w3layouts-copyright a{
+	color: #fff;
+}
+.agileits-w3layouts-copyright a:hover{
+	color:#e8e21e;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .timer {
+        font-size: 35px;
+    }
+}
+
+.clear-loading {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.newsletter {
+    position: relative;
+    width: 75%;
+    margin: 50px auto 20px;
+}
+
+.newsletter .email {
+    width: 76%;
+    padding: 25px 50px 25px 15px;
+    border-radius: 3px;
+    color: #FFF;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    font-size: 14px;
+    font-weight: normal;
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+
+.newsletter .submit {
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/subscribe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    top: 15px;
+    right: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.wrapper p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+}
+.agileinfo_social_icons li {
+    display: inline-block;
+    
+}
+ul.agileinfo_social_icons.w3l li {
+    display: inline-block;
+}
+
+.footer {
+    margin: 50px 10px 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #EEE;
+    /*--agileits--*/
+    /*--w3layouts--*/
+    line-height: 25px;
+}
+
+.footer p a {
+    color: #EEE;
+}
+
+.footer p a:hover {
+    color: #FFF;
+}
+/*-- Responsive-Code --*/
+
+@media screen and (max-width: 1920px) {
+    h1 {
+        margin: 100px 0;
+    }
+    .footer {
+        margin: 150px 10px 20px;
+    }
+}
+@media screen and (max-width: 1440px) {
+	.agileits_newsletter input[type="email"] {
+		padding: 0.8em;
+	}
+	.agileits_newsletter input[type="email"] {
+		width: 64.5%;
+	}
+}
+@media screen and (max-width: 1366px) {
+    .agileits_newsletter input[type="email"] {
+		width: 64.3%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.agileits_newsletter input[type="email"] {
+		width: 63.9%;
+	}
+	.wrapper {
+		margin: 5em auto 4em;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.wrapper {
+		width: 66%;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.wrapper {
+			width: 67%;
+	}
+	h1.agile-head {
+		margin: 1.7em 0 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.wrapper {
+			width: 69%;
+	}
+    .app-text li {
+        /*--agileits--*/
+        /*--w3layouts--*/
+        font-size: 35px;
+    }
+	li.li2 {
+        margin: 0 90px;
+    }
+    .timer {
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+   .wrapper {
+			width: 72%;
+	}
+}
+@media screen and (max-width: 900px) {
+   .wrapper {
+			width: 79%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.timer {
+		font-size: 4.2em;
+	}
+	.agileits_newsletter input[type="email"] {
+		width: 63%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 87%;
+	}
+    .app-text li {
+        font-size: 33px;
+    }
+    .newsletter .email {
+        width: 65%;
+    }
+    .newsletter .submit {
+        right: 65px;
+    }
+}
+@media screen and (max-width: 736px) {
+	.timer {
+		font-size: 4em;
+	}
+	.clock {
+		margin:0;
+	}
+	.agileits_newsletter form {
+		width: 73%;
+	}
+	h1.agile-head {
+		font-size: 2.8em;
+	}
+	.agileits_newsletter input[type="email"] {
+		padding: 0.81em;
+	}
+}
+@media screen and (max-width: 667px) {
+    .wrapper {
+		width: 96%;
+		margin: 3em auto;
+	}
+	h1.agile-head {
+		font-size: 2.7em;
+	}
+	.app-text li {
+        font-size: 30px;
+    }
+    li.li2 {
+        margin: 0 50px;
+    }
+	.agileits_newsletter form {
+		width: 75%;
+	}
+	.newsletter .submit {
+        right: 55px;
+    }
+    .social {
+        margin: 30px auto 0;
+    }
+	.timer {
+		font-size: 3.5em;
+	}
+	.agileits_newsletter input[type="email"] {
+		padding: 0.82em;
+		width: 63.8%;
+	}
+	.agileits_newsletter input[type="submit"] {
+	    width: 29.25%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+   .agileits_newsletter form {
+		width: 77%;
+	}
+	.agileits_newsletter input[type="email"] {
+		width: 63.8%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.agileits_newsletter input[type="email"] {
+		width: 63.5%;
+	}
+	.agileits_newsletter form {
+		width: 83%;
+	}
+	.agileits_newsletter input[type="submit"] {
+        width: 29.5%;
+	}
+	.agileinfo_social_icons li a i {
+		line-height: 2;
+	}
+	.agileinfo_social_icons li a {
+		width: 30px;
+		height: 30px;
+	}
+}
+@media screen and (max-width: 568px) {
+	h1.agile-head {
+		font-size: 2.7em;
+	}
+	.text {
+		font-size: 0.95em;
+	}
+	.agileits_newsletter input[type="email"] {
+		padding: 0.79em;
+	}
+	h1.agile-head {
+		font-size: 2.5em;
+	}
+	.agileits_newsletter input[type="email"] {
+		width: 63%;
+	}
+	.agileits-w3layouts-copyright p {
+		padding: 0 0.5em;
+		line-height: 1.5;
+	}
+    .app-text li {
+        font-size: 25px;
+    }
+   
+   .timer {
+		font-size: 3em;
+		letter-spacing: 0;
+	}
+    .newsletter .email {
+        width: 70%;
+        padding: 20px 50px 20px 10px;
+    }
+    .newsletter .submit {
+        right: 30px;
+        top: 10px;
+    }
+ }
+@media screen and (max-width: 480px) {
+    h1.agile-head {
+		font-size: 2.3em;
+		letter-spacing:2px;
+	}
+	.agileits_newsletter input[type="submit"] {
+		width: 28%;
+	}
+    .newsletter .email {
+        width: 80%;
+    }
+    .newsletter .submit {
+        right: 5px;
+        top: 12px;
+    }
+	.agileits_newsletter h2 {
+		font-size: 0.9em;
+	}
+	.agileits-w3layouts-copyright p {
+		font-size: 0.9em;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+    .clock .column {
+		width: 19%;
+	}
+    .app-text li {
+        font-size: 23px;
+    }
+    .wrapper {
+        padding: 0 10px;
+    }
+    .timer {
+		font-size: 3.4em;
+	}
+	.agileits_newsletter form {
+		width: 94%;
+	}
+	h1.agile-head {
+		font-size: 2.2em;
+		letter-spacing: 1px;
+	}
+	.text {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (max-width: 384px) {
+    li.li2 {
+        margin: 0 30px;
+    }
+    .clock {
+        margin-left: -10px;
+    }
+    .clock .column {
+        width: 20%;
+    }
+    .newsletter .submit {
+        right: 0;
+    }
+	.timer {
+		font-size: 3.1em;
+	}
+	.agileits_newsletter form {
+		width: 96%;
+	}
+	.agileits_newsletter input[type="email"] {
+		width: 62.6%;
+	}
+	h1.agile-head {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+    .agileits_newsletter form {
+		width: 97%;
+	}
+    .newsletter {
+        width: 90%;
+    }
+    .timer {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .clock {
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+	.agileits_newsletter form {
+		width: 100%;
+	}
+	h1.agile-head {
+		font-size: 1.6em;
+	}
+	.clock .column {
+		width: 19%;
+	}
+    .app-text li {
+        font-size: 20px;
+    }
+    li.li2 {
+        margin: 0 10px;
+    }
+    .wrapper p {
+        font-size: 13px;
+    }
+    .newsletter {
+        width: 100%;
+    }
+    .newsletter .email {
+        font-size: 13px;
+        /*--agileits--*/
+        /*--w3layouts--*/
+        padding: 15px 50px 15px 5px;
+    }
+    .newsletter .submit {
+        right: 0;
+        background-size: 25px;
+        top: 6px;
+    }
+    .clock {
+        margin-left: -10px;
+    }
+    .text {
+        font-size: 0.75em;
+    }
+	.agileits_newsletter input[type="email"] {
+		width: 57%;
+	}
+	.agileits_newsletter input[type="submit"] {
+		width: 32%;
+	}
+}
+
+/*-- //Responsive-Code --*/
