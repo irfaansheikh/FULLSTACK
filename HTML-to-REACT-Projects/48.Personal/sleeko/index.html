@@ -1,0 +1,325 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sleeko A Corporate Category Flat Bootstarp Responsive Website Template| Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Sleeko Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel='stylesheet' ='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<!------ Light Box ------>
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>
+    <!-- Script for gallery Here -->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						
+						var filterList = {
+						
+							init: function () {
+							
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							
+							},
+							
+							hoverEffect: function () {
+							
+								// Simple parallax effect
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							
+							}
+				
+						};
+						
+						// Run the show!
+						filterList.init();
+						
+						
+					});	
+					</script>
+		<!-- portfolio-section  -->
+
+</head>
+<body>
+	<div class="header" id="head">
+			<div class="header-top">
+				<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="top-menu">
+					<ul>
+						<li class="active"><a href="#home">home.</a></li>
+						<li><a href="#portfolio"  class="scroll">portfolio.</a></li>
+						<li><a href="#whatido"  class="scroll">what i do.</a></li>
+						<li><a href="#contact"  class="scroll">contact.</a></li>
+					</ul>
+					 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+
+					<!-- //script for menu -->
+				</div>
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+				<div class="container">
+					<div class="banner">
+					<div class="banner-info">
+						<h1>hello</h1>
+						<p>My name is Sleeko. I am a Graphic Designer, and this is my online space to showcase my works.</p>
+						<a href="#" class="button">see my works <span></span></a>
+				</div>
+				<p class="text">Pixelatic’s Blog Update:<a>Complete Guide to Blog Advertising http://bit.ly/bINts7</a></p>
+				<a href="#head"class="button1 scroll">go to top </a>
+				</div>
+				<div class="portfolio-section" id="portfolio">
+					<div class="portfolio"  id="portfolio">
+					<ul id="filters" class="clearfix">
+							<li><span class="filter active" data-filter="app card icon web">Show All</span></li>
+							<li><span class="filter" data-filter="app">Web Design</span></li>
+							<li><span class="filter" data-filter="card">Logo Design</span></li>
+							<li><span class="filter" data-filter="app card">Interface Design</span></li>
+							<li><span class="filter" data-filter="card icon web">Miscellaneous</span></li>
+							</ul>
+		<!-- portfolio-section -->
+		</div>
+	<div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/1.jpg" class="swipebox"  title="Image Title"> <img src="images/1.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+						</div>
+						<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>				
+					<div class="portfolio app mix_all " data-cat="app" style="display: inline-block; opacity: 1; ">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/2.jpg" class="swipebox"  title="Image Title"> <img src="images/2.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>					
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/3.jpg" class="swipebox"  title="Image Title"> <img src="images/3.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>		
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/4.jpg" class="swipebox"  title="Image Title"> <img src="images/4.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>	
+				
+					<div class="portfolio card mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/5.jpg" class="swipebox"  title="Image Title"> <img src="images/5.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>		
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/6.jpg" class="swipebox"  title="Image Title"> <img src="images/6.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>	
+					
+					<div class="portfolio card mix_all" data-cat=" web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/7.jpg" class="swipebox"  title="Image Title"> <img src="images/7.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/8.jpg" class="swipebox"  title="Image Title"> <img src="images/8.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/9.jpg" class="swipebox"  title="Image Title"> <img src="images/9.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					<div class="port-info">
+							<h4>Tittle of the design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+							<a href="#">see design</a>
+							</div>
+					</div>											
+					<div class="clearfix"> </div>								
+				</div>
+					<div class="clearfix"> </div>
+    </div>
+							
+	  
+			<div class="whatido-section" id="whatido">
+						<div class="what-header">
+							<h3>Clean, Wonderful & Effective</h3>
+							<h5>websites that can really improve your business</h5>
+							<div class="col-md-3 left-grid">
+								<h4>Testimonial</h4>
+								<div class="center-icon"> </div>
+								</div>
+								<div class="col-md-9 right-grid">
+								<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate. </hP>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="what-grids">
+								<div class="col-md-4 what-grid">
+									<h4>Web Design</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc.
+										</p>
+									</div>
+									<div class="col-md-4 what-grid">
+									<h4>Web Marketing</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc.
+										</p>
+									</div>
+									<div class="col-md-4 what-grid">
+									<h4>Social Media</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc.
+										</p>
+									</div>
+								<div class="clearfix"> </div>
+								</div>
+						</div>
+						<div class="contact-section" id="contact">
+							<div class="col-md-6 contact-grid">
+								<h4>Thank you!</h4>
+								<h5>Get in touch with me now.</h5>
+								<div class="contact-form">
+							<form>
+								<input type="text" class="text" value=" YourName" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'YourName';}">
+								 <input type="text" class="text" value="Your Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email Address';}">
+								<input type="text" class="text" value="Your Estimated Budget" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Estimated Budget';}">
+								<textarea value="Your Project Description" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Project Description';}">Your Project Description </textarea>
+					 		    <input type="submit" value="submit now">
+								</form>
+								</div>
+								</div>
+								<div class="col-md-6 contact-grid1">
+									<div class="top-text">
+									<h4>Available For Hire</h4>
+									</div>
+									<div class="social-icons">
+										<p>Connect with me via:</p>
+										<a href="#"><i class="icon1"> </i></a>
+										<a href="#"><i class="icon2"> </i></a>
+										<a href="#"><i class="icon3"> </i></a>
+										<a href="#"><i class="icon4"> </i></a>
+										</div>
+										<div class="footer-section">
+											<div class="footer-logo">
+												<a href="#"><img src="images/footr-logo.png"></a>
+													<p class="text1">This is a FREE single page website design created in Photoshop format exclusively for Pixelactic.com’s readers. This deisgn is created by Rafi. Hope you’ll like this design. Thanks!</p>
+												</div>
+												<div class="footer-bottom">
+					<p> Copyright &copy;2015  All rights  Reserved | Template by<a href="http://w3layouts.com" target="target_blank">W3Layouts</a></p>
+					</div>
+
+											</div>
+								</div>
+							<div class="clearfix"> </div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+							</div>
+					</div>
+					
+					
+</body>
+</html>

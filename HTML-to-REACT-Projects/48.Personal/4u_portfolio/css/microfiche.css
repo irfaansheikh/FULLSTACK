@@ -1,0 +1,64 @@
+
+  .example {
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+  .example ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .example li {
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 0;
+  }
+    .example li img {
+      display: block;
+      margin: 0;
+    }
+
+.microfiche-controls {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 0px;
+}
+.microfiche-button {
+  margin:0 auto;
+  padding:5px 15px;
+  font-size:1.8em;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #00a1cb;
+  color: white;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  border: none;
+  cursor:pointer;
+}
+.microfiche-button:hover {
+  background: #00b5e5;
+}
+/* line 183, ../scss/buttons.scss */
+.microfiche-button:active {
+  background: #1495b7;
+  color: #00647f;
+}
+.microfiche-prev-button{
+	float:left;
+}
+.microfiche-next-button{
+	float:right;
+}
+.demo {
+  display: block;
+  position: relative;
+  margin:0 auto;
+}
