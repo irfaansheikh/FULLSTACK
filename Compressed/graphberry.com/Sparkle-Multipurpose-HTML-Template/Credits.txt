@@ -1,0 +1,33 @@
+Bootstrap 4
+
+https://getbootstrap.com/
+
+Raleway Font
+
+https://fonts.google.com/specimen/Raleway
+
+Images
+
+https://unsplash.com/
+
+
+Portfolio Images
+
+https://www.designspiration.net/
+
+jQuery
+
+https://code.jquery.com/
+
+
+Animate.css
+
+https://daneden.github.io/animate.css/
+
+Wow.js
+
+https://wowjs.uk/
+
+Waypoints
+
+http://imakewebthings.com/waypoints
