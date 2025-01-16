@@ -1,0 +1,220 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>WayFarer Bootstarp Website Template | Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+<script src="js/highcharts.js"></script>
+<script src="js/jquery.easydropdown.js"></script>
+</head>
+<body>
+<!-- Header Starts Here -->
+<div class="container">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><h1>Ecommerce Elements</h1></a>
+		</div>
+		<span class="menu"></span>
+		<script>
+			$( "span.menu" ).click(function() {
+			  $( ".navigation" ).slideToggle( "slow", function() {
+			    // Animation complete.
+			  });
+			});
+		</script>
+		<div class="cleary"></div>
+		<div class="navigation">
+			<ul class="navig">
+				<li><a href="index.html" class="active">HOME</a></li>
+				<li><a href="brands.html">BRANDS</a></li>
+				<li><a href="men.html">MENS</a></li>
+				<li><a href="brands.html">WOMENS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="search-bar">
+			<input type="submit" value="" />
+			<div class="text">
+				<input type="text" placeholder="Search.." required=" 	" />
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- Header Ends Here -->
+<!-- Banner Starts HEre -->
+<div class="container">
+	<div class="banner">
+		<img src="images/logo.png" alt="">
+		<h2>RB2132 901 NEW WAYFARER</h2>
+		<p>The Ray-Ban&reg; Wayfarer&reg; is simply the most recognizable style in sunglasses. The distinct shape is paired with the traditional Ray-Ban signature logo on the sculpted temples. After its initial design in 1952, the Ray-Ban Wayfarer quickly endeared itself to Hollywood filmmakers, celebrities, musicians and artists,solidifying its iconic status for years to come. </p>
+		<a href="brands.html"class="">FIND OUT MORE</a>
+	</div>
+</div>
+<!-- Banner Ends HEre -->
+<!-- Sales Starts Here -->
+<div class="container">
+	<div class="sales-row">
+		<div class="sales-left-column">
+			<img src="images/shoe.jpg" alt="">
+			<div class="img-desc">
+				<h3>VAN DOREN AUTHENTIC </h3>
+				<small>(Parrot / Light Blue)</small>
+				<p>Size: UK9 &nbsp;<a href="#">[Change] </a></p>
+				<div class="cart">
+					<p>&#8356;54.00</p>
+					<a href="single.html">ADD TO BASKET</a>
+				</div>
+			</div>
+		</div>
+		<div class="sales-right-column">
+			<h3>Sales This Week</h3>
+			<div>
+				<div id="recipes" style="width:100%; height:260px; margin: 0 auto"></div>
+				 <script>
+				 $(function () {
+				    $('#recipes').highcharts({
+				        
+				        title: {
+				            text: '',
+				            style: {
+				                color: '#222222',
+				                fontWeight: '100'
+				               
+				            }
+				        },
+				       
+				       xAxis: {
+				            categories: [ 'SUN','MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+				        },
+				        
+				        yAxis: {
+				             labels: {
+				                formatter: function() {
+				                    return this.value +'k'
+				                }
+				            },
+					         title: {
+				                    enabled: false
+				                }
+				        },
+				         plotOptions: {
+				            series: {
+				            	 cursor: 'pointer',
+				                color: '#222222'
+				            }
+				        },
+				         
+				        legend: {
+				            enabled: false
+				        },
+				        
+				        tooltip: {
+				           shared: true,
+						   pointFormat: '{point.x} k',
+						    backgroundColor: '#FFFFFF'
+				        },
+				        
+				        series: [{            
+				            data: [1, 4.5, 4, 6.7, 1],
+				            pointStart: 1
+				        }]
+				    });
+				});
+				
+				 </script>
+				</div>
+				<div class="sales-week">
+					<div class="sales-wek-col">
+						<p>9,374</p>
+						<h4>Sales This Week</h4>
+					</div>
+					<div class="sales-wek-col">
+						<p>125,457</p>
+						<h4>Total Sales</h4>
+					</div>
+					<div class="sales-wek-col no-sale">
+						<p>+ 17%</p>
+						<h4>Total Income</h4>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- Sales Ends Here -->
+<!-- Shopping Starts Here -->
+<div class="container">
+	<div class="shopping">
+		<div class="shopping-col-left">
+			<h3>Shopping Bag</h3>
+			<div class="producty">
+				<span><img src="images/shoes.jpg" alt=""></span><p>Vans Vault 2012 Summer OG Era LX Pack <a href="#">[Remove]</a></p>
+				<div><h4><i>1</i>&#8356;54.00</h4></div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="product">
+				<span><img src="images/t-shirt.jpg" alt=""></span><p>Vans Vault 2012 Summer OG Era LX Pack <a href="#">[Remove]</a></p>
+				<div><h4><i>2</i>&#8356;32.00</h4></div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="product">
+				<span><img src="images/shirt.jpg" alt=""></span><p>Vans Vault 2012 Summer OG Era LX Pack <a href="#">[Remove]</a></p>
+				<div><h4><i>1</i>&#8356;70.00</h4></div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="total">
+				<h4>Total: &#8356;156.00</h4>
+				<a href="single.html">CHECKOUT</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="shopping-col-right">
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3308.188658069775!2d-118.47547193309629!3d33.9876876369627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bab8fffd1afd%3A0x99bbcc91a3911781!2s1600+Pacific+Ave%2C+Venice%2C+CA+90291%2C+USA!5e0!3m2!1sen!2sin!4v1416911252534"  frameborder="0" style="border:0"></iframe>
+			</div>
+			<div class="map-desc">
+				<h4>1600 Pacific Ave</h4>
+				<p>Venice, CA, United States</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Shopping Ends Here -->
+<!-- Footer Starts Here -->
+<div class="container">
+<div class="footer">
+	<div class="logo">
+			<a href="#"><h1>Ecommerce Elements</h1></a>
+	</div>
+	<p class="copyright">2014 Template by <a href="http://w3layouts.com">W3layouts</a></p>
+	<ul class="social">
+		<li><i class="fa"></i></li>
+		<li><i class="fb"></i></li>
+		<li><i class="fc"></i></li>
+		<li><i class="fd"></i></li>
+	</ul>
+	<div class="clearfix"></div>
+</div>
+</div>
+<!-- Footer Ends Here -->
+</body>
+</html>
