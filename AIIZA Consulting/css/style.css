@@ -1,9 +1,4 @@
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
+
 
 /* Table of content
 1.General - This is created general styles and overide some bootstrap classes.
@@ -114,7 +109,7 @@ p {
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#FECE1A;
+    background:#5271ff;
     color: #000;
 }
 /******
@@ -219,20 +214,20 @@ p {
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#FECE1A;
+    background-color:#5271ff;
     color:#181A1C;
 }
 .button-sp:hover, .button-sp:active {
     background-color:#181A1C;
-    color:#FECE1A;
+    color:#5271ff;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
     background-color:#181A1C;
-    color:#FECE1A;
+    color:#5271ff;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#FECE1A;
+    background-color:#5271ff;
     color:#181A1C;
 }
 /*
@@ -283,7 +278,7 @@ p {
     z-index:4;
 }
 .thumbnail h3 {
-    color: #FECE1A;
+    color: #5271ff;
     margin-top:10px;
     font-size:20px;
 }
@@ -329,7 +324,7 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #FECE1A;
+    color: #5271ff;
 }
 .social li a:hover {
     color:#181A1C;
@@ -362,19 +357,19 @@ p {
     background:#181A1C;
 }
 .primary-section .triangle {
-    border-top: 40px solid #FECE1A;
+    border-top: 40px solid #5271ff;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    color: #5271ff;
 }
 .primary-section h1 {
     color:#FFF;
 }
 .secondary-section {
-    background:#FECE1A;
+    background:#5271ff;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
@@ -386,7 +381,7 @@ p {
 .third-section {
     padding-bottom: 70px;
     background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FECE1A;
+    border-top:6px solid #5271ff;
 }
 .third-section .container {
     padding-top:20px;
@@ -394,7 +389,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #FECE1A;
+    color: #5271ff;
 }
 .sub-section {
     margin-top:30px;
@@ -447,11 +442,11 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #FECE1A;
+    color: #5271ff;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#FECE1A;
+    color:#5271ff;
 }
 .project-info {
     font-weight:100;
@@ -491,7 +486,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #FECE1A;
+    background: #5271ff;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
@@ -532,7 +527,7 @@ p {
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #FECE1A;
+    background-color: #5271ff;
 }
 /*
 3.4 Clients
@@ -541,7 +536,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#FECE1A;
+    background-color:#5271ff;
 }
 .client-nav {
     list-style:none;
@@ -555,7 +550,7 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#FECE1A;
+    background:#5271ff;
     border-radius:3px;
     width:20px;
     height:20px;
@@ -565,14 +560,14 @@ p {
 }
 .testimonial p {
     color:#181A1C;
-    background:#FECE1A;
+    background:#5271ff;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #FECE1A;
+    border-top:10px solid #5271ff;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
