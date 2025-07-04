@@ -1,0 +1,58 @@
+User-agent: *
+Disallow:/404/
+Disallow:/thankyou/
+Disallow:/privacy/
+Disallow:/terms/
+Disallow:/demo/
+Disallow:/lp/
+Disallow:/aff/
+Disallow:/tag/
+Disallow:/new/
+Disallow:/wp-admin/
+Disallow:/live/
+Disallow:/test/
+Disallow:/post-form.php
+Disallow:/estimator/
+Disallow:/?*
+Disallow:/author/
+Disallow:/login/
+Disallow:/register/
+ 
+# disable duggmirror
+User-agent: duggmirror
+Disallow: /
+ 
+# Disallow Following crawlers access to site.
+
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: TurnitinBot/2.1
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: SurveyBot
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: AboutUsBot
+Disallow: /
+
+User-agent: robtexbot
+Disallow: /
+
+Sitemap: https://www.weblanez.com/sitemap.xml
+Sitemap: https://www.weblanez.com/blogs/sitemap_index.xml
