@@ -1,0 +1,89 @@
+<html>
+<head>
+		<title>Forms</title>
+		<link href="style.css" rel="stylesheet">
+		<script src="script.js"></script>
+</head>
+<body bgcolor="yellow">
+<center><h1>Student Form</h1><center>
+<center>
+<form onSubmit="validate(); return false;">
+	<fieldset>
+		<legend> Student information</legend>
+<table>
+	<tr>
+		<td><label>Student Name <font color="red">*</font>  </label></td>
+		<td><input type="text" name="n" id="fname" placeholder="Enter your Full name"> <br>
+		<span id="error"></span>
+		
+		
+		</td>
+	</tr>
+	
+	<tr>
+		<td><label>Password </label></td>
+		<td><input type="password" name="pass"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Email</label></td>
+		<td><input type="email" name="email" placeholder="abc@gmail.com"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Date of birth</label></td>
+		<td><input type="date" name="dob"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Enter your lucky number</label></td>
+		<td><input type="number" name="num"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Select your fav Color</label></td>
+		<td><input type="color" name="color"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Gender</label></td>
+		<td><input type="radio" name="gender" value="male" checked> Male<input type="radio" name="gender" value="female"> Female</td>
+	</tr>
+	
+	<tr>
+		<td><label>Hobbies</label></td>
+		<td><input type="checkbox" name="chk1" value="Reading Book"> Reading Book
+		<input type="checkbox" name="chk2" value="Playing"> Playing</td>
+	</tr>
+	
+	<tr>
+		<td><label>Province</label></td>
+		<td>
+			<select name="pro">
+				<option>Punjab</option>
+				<option>KPK</option>
+				<option>Sindh</option>
+				<option>Balochistan</option>
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td><label>Address</label></td>
+		<td>
+			<textarea cols="20" rows="5"></textarea>
+		</td>
+	</tr>
+	
+	<tr style="text-align:center">
+		<td colspan="2">
+			<input type="submit" value="Enter data">
+			<input type="reset" value="Clear">
+		</td>
+	</tr>
+</table>
+	</fieldset>
+</form>
+<center>
+</body>
+</html>
