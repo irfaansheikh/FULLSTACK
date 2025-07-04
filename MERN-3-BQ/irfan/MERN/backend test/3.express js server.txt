@@ -1,0 +1,24 @@
+
+• Create a simple express js server which show “server is listening”.
+_____________________________________________________________________________________
+
+1.mkdir IrfanServer
+2.cd IrfanServer
+3.npm init -y
+
+4.npm install express
+
+5.index.js (file)
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Server is listening');
+});
+
+app.listen(port, () => {
+  console.log(`Server is listening on http://localhost:${port}`);
+});
+
+6.node index.js

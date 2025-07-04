@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+idoportal.com	TRUE	/	FALSE	1999999999	wires	a9660918a49c1e1b292539d174b116b6
+

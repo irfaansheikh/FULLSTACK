@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Objects</title>
+        <script>
+    // const irfan={
+    //     name:"irfan", age:35, address:"Pakistan" }
+
+    // document.write(irfan.name + "<br>") 
+    // document.write(irfan.age + "<br>")
+    // document.write(irfan.address)
+
+        let irfan1=new Object();
+        irfan1.name='irfan'; 
+        irfan1.age=35; 
+        irfan1.address="Pakistan";
+        irfan1.ab=function(){
+        console.log('Hi' + this.name)
+        
+
+        };
+        function abc(){
+         irfan1.ab();
+         alert ('check');
+        }
+
+    
+</script>
+
+</head>
+<body>
+    <button onclick="abc()">Click</button>
+</body>
+</html>

@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 19 Feb 2025 14:57:05 at https://magenta-mouse-826487.hostingersite.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://magenta-mouse-826487.hostingersite.com/ -O1 "C:\My Web Sites\united-energy2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:01:34	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/img/icons/img/icons/nectar-loading.gif (from https://magenta-mouse-826487.hostingersite.com/img/icons/nectar-loading.html)
+15:01:34	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/img/icons/img/textures/diagonal_line.png (from https://magenta-mouse-826487.hostingersite.com/img/icons/nectar-loading.html)
+15:01:34	Warning: 	Retry after error -4 (No data (connection closed)) at link https://magenta-mouse-826487.hostingersite.com/img/textures/img/icons/nectar-loading.gif (from https://magenta-mouse-826487.hostingersite.com/img/textures/diagonal_line.html)
+15:01:34	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/img/textures/img/textures/diagonal_line.png (from https://magenta-mouse-826487.hostingersite.com/img/textures/diagonal_line.html)
+15:01:38	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/html.js (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/js/init.js)
+15:01:38	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/Edge/ (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/js/init.js)
+15:01:38	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/img/icons/social/img/icons/nectar-loading.gif (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/img/icons/social/vimeo-header-black.html)
+15:01:38	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/img/icons/social/img/textures/diagonal_line.png (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/img/icons/social/vimeo-header-black.html)
+15:01:39	Error: 	"Not Found" (404) at link https://www.edgeutilities.co.uk/wp-content/themes/salient/img/icons/social/vimeo-header-black.png (from https://www.edgeutilities.co.uk/wp-content/themes/salient/style.css)
+15:01:39	Error: 	"Not Found" (404) at link https://www.edgeutilities.co.uk/wp-content/themes/salient/img/icons/social/behance-header-black.png (from https://www.edgeutilities.co.uk/wp-content/themes/salient/style.css)
+15:01:39	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/img/textures/img/icons/nectar-loading.gif (from https://magenta-mouse-826487.hostingersite.com/img/textures/diagonal_line.html)
+15:01:39	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/css/fonts/svg/font/img/icons/nectar-loading.gif (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/css/fonts/svg/font/inea-basic-10.html)
+15:01:39	Error: 	"Not Found" (404) at link https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/css/fonts/svg/font/img/textures/diagonal_line.png (from https://magenta-mouse-826487.hostingersite.com/wp-content/themes/salient/css/fonts/svg/font/inea-basic-10.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 34 seconds : 318 links scanned, 303 files written (19894550 bytes overall) [7836750 bytes received at 28601 bytes/sec], 18404069 bytes transferred using HTTP compression in 204 files, ratio 31%, 19.8 requests per connection
+(12 errors, 1 warnings, 0 messages)
