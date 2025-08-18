@@ -1,0 +1,448 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/body_bg.jpg);
+}
+.wrap{
+	width:1000px;
+	margin:0 auto;	
+}
+.main{
+	margin-top:150px;
+	box-shadow: inset 2px 2px 15px rgb(14, 13, 13);
+    color:#E8FDF8;
+	background: #73880a;
+	background: -moz-linear-gradient(top,  #73880a 0%, #78872c 54%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#73880a), color-stop(54%,#78872c));
+	background: -webkit-linear-gradient(top,  #73880a 0%,#78872c 54%);
+	background: -o-linear-gradient(top,  #73880a 0%,#78872c 54%);
+	background: -ms-linear-gradient(top,  #73880a 0%,#78872c 54%);
+	background: linear-gradient(to bottom,  #73880a 0%,#78872c 54%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73880a', endColorstr='#78872c',GradientType=0 );
+     border:12px solid transparent;
+	-moz-border-image:url(../images/border.png) 10 10 stretch; 
+	-webkit-border-image:url(../images/border.png) 10 10 stretch;
+	-o-border-image:url(../images/border.png) 10 10 stretch;
+	border-image:url(../images/border.png) 10 10 round;
+}
+.cntSeparator {
+	font-size:50px;
+	margin: 10px 7px;
+	color: #000;
+}
+.timer{
+	background:white;
+	width:542px;
+	margin:0 auto;
+	padding:30px;
+	-webkit-border-radius:.5em;
+	-moz-border-radius:.5em;
+	border-radius:.5em;
+	-webkit-box-shadow:0 0 5px #aaa;
+   -moz-box-shadow:0 0 5px #aaa;
+	box-shadow:0 0 8px #aaa;
+}
+#counter{
+	margin:0 auto 7px auto;
+	width:512px;
+}
+.desc{
+	margin-left:2px;
+}
+.desc div {
+	float: left;
+	width: 70px;
+	margin:0 46px 0 19px;
+	font-size: 13px;
+	color: #000000;
+}	
+.main h2{
+	font-family:'Petit Formal Script', cursive;
+	font-size:40px;
+	color:#FFF;
+	padding:15px 0;
+	text-align:center;
+	font-weight:bold;
+}
+.main h3{
+	font-size:18px;
+	color:#FFF;
+	padding:20px;
+}
+.main p{
+	font-size:16px;
+	text-align:center;
+}
+.main  span.error{
+	color:rgb(210, 219, 0);
+	font-size:20px;
+}
+.contact {
+	width: 500px;
+	margin: 50px auto;
+	padding: 5px 5px;
+	position: relative;
+	background:#fff;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+}
+.contact input[type="text"] {
+	background: #73880a;
+	border: none;
+	font-size: 15px;
+	padding: 10px;
+	color: #fff;
+	width: 365px;
+	outline: none;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+}
+.contact input[type="submit"] {
+	background: #73880a;
+	border: none;
+	padding: 10px 30px;
+	margin: 0;
+	right: 6px;
+	cursor: pointer;
+	position: absolute;
+	color: #fff;
+	top: 6px;
+	font-size: 15px;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+}
+.main_bottom{
+	padding:5px 15px;
+}
+.menu{
+	float:left;
+}
+.menu li{
+	display:inline;
+}
+.menu li a{
+	font-size:12px;
+	color:#FFF;
+	padding:0 5px;
+	border-right:1px solid rgb(209, 205, 205);
+}
+.menu li:nth-child(5) a{
+	border:none;
+}
+.icons{
+	float:right;
+}
+.icons li{
+	display: inline;
+	margin:0 3px;
+}
+.copy_right p {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    margin-top: 3em;
+}
+.copy_right p a{
+	color:#AAA;
+}
+.copy_right p a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+.copy_right {
+    padding: 0 0 2em;
+}
+/*-- responsive-design --*/ 
+@media(max-width:1080px){
+.wrap{
+	width:90%;
+}
+.main {
+    margin-top: 76px;
+}
+}
+@media(max-width:667px){
+#counter {
+    margin: 0 auto 10px auto;
+    width: 510px;
+}
+.timer {
+    width: 525px;
+    padding: 35px 10px;
+}
+.desc div {
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+}
+.main h2 {
+    margin-top: 20px;
+}
+.main {
+    margin-top: 50px;
+}
+
+}
+@media screen and (max-width: 640px){
+	.main {
+    margin-top: 45px;
+}
+.timer {
+    width: 500px;
+    padding: 35px 10px;
+}
+
+element.style {
+    float: left;
+}
+.cntSeparator {
+    font-size: 50px;
+    margin: 10px 6px;
+	    line-height: 48px;
+}
+	
+}
+
+@media screen and (max-width: 600px){
+	.timer {
+    width: 460px;
+    padding: 25px 10px;
+}
+	
+	#counter {
+    width: 100%;
+ }
+ 
+#counter .cntDigit {
+    width: 47px !important;
+}
+.contact input[type="text"] {
+    width: 70%;
+}
+.contact {
+    width: 90%;
+}
+.contact input[type="submit"] {
+    padding: 9px 30px;
+}
+
+}
+
+@media screen and (max-width: 568px){
+	
+	.timer {
+    width: 450px;
+    padding: 25px 5px;
+}
+
+
+element.style {
+    float: left;
+}
+.cntSeparator {
+    font-size: 50px;
+    margin: 10px 5px;
+	line-height: 49px;
+}
+.contact input[type="text"] {
+    width: 68%;
+}
+.main_bottom {
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 480px){
+	.contact input[type="text"] {
+    width: 62%;
+}
+.icons {
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#counter .cntDigit {
+    width: 36px !important;
+    background-size: cover !important;
+    height: 4619px !important;
+    background-position: 52% center !important;
+    margin: auto 1px;
+}
+
+.cntSeparator {
+    font-size: 50px;
+    margin: 10px 0px;
+    line-height: 40px;
+}
+.timer {
+    width: 346px;
+    padding: 25px 10px;
+}
+.main h2 {
+    font-size: 35px;
+}
+.main p {
+    font-size: 15px;
+    padding: 10px;
+}
+.contact {
+    width: 90%;
+    margin: 30px auto;
+}
+
+}
+@media screen and (max-width: 414px){
+	
+	.contact input[type="submit"] {
+    padding: 9px 22px;
+}
+.contact input[type="text"] {
+    width: 64%;
+}
+.wrap {
+    width: 97%;
+}
+.timer {
+    width: 346px;
+    padding: 25px 5px;
+}
+.copy_right p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2em;
+}
+.copy_right {
+    padding: 0 0 1em;
+}
+}
+
+@media screen and (max-width: 384px){
+	.wrap {
+    width: 99%;
+}
+.timer {
+    width: 330px;
+    padding: 25px 3px;
+}
+#counter .cntDigit {
+    width: 34px !important;
+    background-size: cover !important;
+    height: 4610px !important;
+    background-position: 52% center !important;
+    margin: auto 1px;
+}
+#counter {
+    width: 100%;
+    height: 65px !important;
+}
+.contact input[type="submit"] {
+    padding: 9px 18px;
+}
+}
+
+@media screen and (max-width: 375px){
+	.contact input[type="submit"] {
+    padding: 9px 17px;
+}
+.cntSeparator{
+    font-size: 40px;
+    margin: 10px 0px;
+    line-height: 35px;	
+	
+}
+.timer {
+    width: 322px;
+    padding: 25px 1px;
+}
+.main p {
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.main h2 {
+    font-size: 30px;
+    padding: 5px;
+}
+.main {
+    margin-top: 20px;
+}
+	
+}
+
+@media screen and (max-width: 320px){
+	
+	.contact input[type="text"] {
+    width: 57%;
+}
+.menu li a {
+    font-size: 13px;
+    padding: 0px 2px;
+}
+.wrap {
+    width: 100%;
+}
+.cntSeparator {
+    font-size: 30px;
+    margin: 10px -2px;
+    line-height: 35px;
+}
+.main h2 {
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.contact {
+    margin: 20px auto;
+}
+.timer {
+    width: 295px;
+    padding: 25px 0px;
+	    margin-left: -8px;
+}
+#counter .cntDigit {
+    width: 33px !important;
+    background-size: cover !important;
+    height: 4610px !important;
+    background-position: 52% center !important;
+    margin: auto 1px;
+}
+}

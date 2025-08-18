@@ -1,0 +1,315 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family: 'Exo', sans-serif;
+	background: #eee;
+}
+.header {
+    text-align: center;
+    margin-top: 5em;
+}
+.header h1 {
+    font-size: 3em;
+    color: #222;
+    font-weight: 200;
+}
+.main-section {
+    width: 43%;
+    margin: 3em auto 0;
+}
+.price-left {
+    float: left;
+}
+.price-right {
+    float: right;
+}
+.price-left h3 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 200;
+}
+.payment-top {
+    padding: 1em 2em;
+    background: #5ac097;
+    background: -moz-linear-gradient(left, #5ac097 27%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #5ac097 27%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: linear-gradient(to right, #5ac097 27%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ac097', endColorstr='#7db9e8',GradientType=1 );
+}
+.price:nth-child(2) {
+    padding: 1em 0;
+}
+.price-right h4 {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+}
+.price-right span {
+    vertical-align: super;
+    font-size: .6em;
+}
+.price-right input[type="text"] {
+    padding: .6em .6em;
+    font-size: .9em;
+    width: 67%;
+    float: right;
+    background: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 2px;
+	    color: #222;
+}
+.total {
+    background: #5f5f60;
+    padding: 1em 2em;
+}
+.total-left {
+    float: left;
+}
+.total-right {
+    float: right;
+}
+.total-left h3 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 200;
+}
+.total-right h4 {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+}
+.total-right span {
+    vertical-align: super;
+    font-size: .6em;
+}
+.google-map iframe{
+	width: 100%;
+    height: 200px;
+}
+.payment-left {
+    width: 50%;
+    float: left;
+}
+.payment-right {
+    width: 45%;
+    float: left;
+    background: #fff;
+    padding: 1em 1em 5.3em;
+}
+.payment-right input[type="text"] {
+    padding: .6em 1em;
+    width: 90%;
+    font-size: .9em;
+    margin-bottom: 1em;
+	outline: none;
+    border: 1px solid #D6D6D6;
+    border-radius: 3px;
+}
+.payment-right input[type="password"] {
+    padding: .6em 1em;
+    width: 90%;
+    font-size: .9em;
+    margin-bottom: 1em;
+	outline: none;
+    border: 1px solid #D6D6D6;
+    border-radius: 3px;
+}
+.payment-right p {
+    font-size: .8em;
+    color: #888787;
+}
+.payment-right input[type="checkbox"] {
+    vertical-align: middle;
+}
+.send a {
+    text-align: center;
+    background: #4ed7cb;
+    width: 12%;
+    margin: 3em auto 0;
+    padding: 2em 1em;
+    border-radius: 60px;
+		display: block;
+}
+::-webkit-input-placeholder{
+color:#888787 !important;
+}
+.send a span {
+   font-size: 1em;
+    color: #fff;
+	display: block;
+}
+.footer {
+    text-align: center;
+    padding: 3em 0;
+}
+.footer p {
+    font-size: .9em;
+    color: #222;
+    margin: 0px;
+}
+.footer p a:hover {
+    color: #4ed7cb;
+}
+.footer p a {
+    color: #222;
+}
+/**resopnsive**/
+@media(max-width:1440px){
+.main-section {
+    width: 50%;
+}
+}
+@media(max-width:1280px){
+.main-section {
+    width: 55%;
+}
+@media(max-width:1080px){
+.main-section {
+    width: 67%;
+}
+.header h1 {
+    font-size: 2.8em;
+}
+.payment-right {
+    width: 45%;
+	padding: 1em 1em 5em;
+}
+.price-left h3 ,.total-left h3{
+    font-size: 1.2em;
+}
+}
+@media(max-width:991px){
+.main-section {
+    width: 86%;
+}
+.google-map iframe {
+    height: 176px;
+}
+.send a {
+	width: 10%;
+}
+.payment-right {
+    padding: 1em 1em 3em;
+}
+@media(max-width:800px){
+.send a {
+    width: 12%;
+}
+}
+@media(max-width:768px){
+.google-map iframe {
+    height: 152px;
+}
+.send a {
+    width: 13%;
+}
+}
+@media (max-width:640px){
+.main-section {
+    width: 95%;
+}
+.header h1 {
+    font-size: 2.5em;
+}
+.payment-right {
+    width: 44%;
+	padding: 1em 1em 3.5em;
+}
+.send a {
+    width: 11%;
+    padding: 1.5em 1em;
+}
+.payment-top {
+    padding: 1em .95em;
+}
+.total {
+    padding: 1em .95em;
+}
+.header {
+    margin-top: 3em;
+}
+.google-map iframe {
+    height: 182px;
+}
+}
+@media (max-width:480px){
+.payment-left {
+    width: 100%;
+}
+.payment-right {
+    width: 92%;
+}
+.send a {
+    width: 15%;
+    margin: 1em auto 0;
+}
+.main-section {
+    width: 90%;
+}
+.send a {
+    width: 16%;
+}
+.send a span {
+    font-size: 0.95em;
+}
+}
+@media(max-width:320px){
+.header h1 {
+    font-size: 1.7em;
+}
+.price-left h3, .total-left h3 {
+    font-size: 1.1em;
+}
+.header {
+    margin-top: 2em;
+}
+.main-section {
+    margin: 2em auto 0;
+}
+.main-section {
+    width: 96%;
+}
+.price-right h4,.total-right h4 {
+    font-size: .96em;
+}
+.payment-right {
+    width: 89%;
+}
+.send a {
+    width: 23%;
+}
+.footer {
+    text-align: center;
+    padding: 2em 0;
+}
+}

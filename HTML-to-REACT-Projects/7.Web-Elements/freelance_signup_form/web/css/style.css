@@ -1,0 +1,463 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/*--reset--*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/*--start editing from here--*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*--end reset--*/
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: url(../images/bg.png)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{	
+   font-family: 'PT Sans', sans-serif;
+}
+.clearfix{
+	clear:both;
+}
+/**** LOGIN_SIGNUP ******/
+h1.wthree {
+    text-transform: capitalize;
+    font-size: 3em;
+	text-align: center;
+    color: #fff;
+    margin: 0.5em 0;
+}
+/* signup Form styles */
+.container {
+    width: 66%;
+    margin: 3em auto;
+    padding: 1.5em;
+    background: #fff;
+}
+.w3ls-icon {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 2em;
+}
+.login-section {
+    width: 42%;
+    float: left;
+    margin: 0 auto;
+    padding: 1em 3em 2em;
+    background: #7c2ce2;
+    position: relative;
+}
+.login-w3l-right {
+    width: 48.5%;
+	float: left;
+	background: #f4e0ae;
+	/*background:url(../images/3.jpg) no-repeat center;
+	background-size:cover;
+	min-height:300px;*/
+}
+.login-w3l-right h2 {
+    color: #a32927;
+    font-size: 1.3em;
+}
+.wthree-left-txt {
+    padding: 1.2em 2em 2em;
+}
+.w3ls-icon i {
+    color: #f4e0ae;
+    font-size: 1em;
+}
+.login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+    width: 85.5%;
+    padding: 1em;
+    border: none;
+    outline: none;
+	color: #fff;
+    font-size: 1em;
+	letter-spacing: 1px;
+	background:transparent;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-moz-transition:0.5s all;
+	font-family: 'PT Sans', sans-serif;
+}
+label.w3layouts {
+    width: 49%;
+    display: inline-block;
+    background: #fff;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+	color: #7a2ce5;
+	cursor:pointer
+}
+.w3ls-opt input[type="radio"]{
+	font-size:1em;
+}
+/*-- login --*/
+input[type="submit"] {
+    background: #f4e0ae;
+    color: #a22928;
+    font-size: 1em;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    padding: 0.7em 0;
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+input[type="submit"]:hover {
+    background: #fff;
+}
+.login-w3l-right h3 {
+    color: #000;
+    font-size: 1em;
+    margin: 0.8em 0 1.2em;
+}
+h3.form-head {
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0.8em 0;
+}
+.agileits_social_list li{
+	display:inline-block;
+	margin:0 2px;
+}
+.agileits_social_list li a{
+	width: 146px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.agileits_social_list li a i{
+	line-height:2.4em;
+}
+
+a.w3_agile_facebook{
+	background:#0e387c
+}
+.agileits_social_list li a.w3_agile_facebook:hover{
+	color:#0e387c;
+	background:#fff;
+}
+a.agile_twitter{
+	background:#1da1f2;
+}
+.agileits_social_list li a.agile_twitter:hover{
+	color:#1da1f2;
+	background: #fff;
+}
+p.footer,p.footer a {
+    padding: 0 0 2em;
+    color: #fff;
+    font-size:1em;
+}
+::-webkit-input-placeholder{
+	color:#fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+/*--responsive--*/
+/* -- Responsive code -- */
+@media screen and (max-width: 1920px){
+    .login-section {
+        padding: 3em 3em 4.5em;
+    }
+    .container {
+        margin: 8em auto;
+    }
+    h1.wthree {
+        margin: 2em 0 0;
+    }
+}
+@media screen and (max-width: 1680px){
+    .container {
+        margin: 4em auto;
+    }
+    .login-section {
+        padding: 2em 3em 2.3em;
+    }
+}
+@media screen and (max-width: 1600px){
+    h1.wthree {
+        margin: 0.5em 0 0;
+    }
+    .container {
+        margin: 3em auto;
+    }
+    .login-section {
+       padding: 1em 3em 2em;
+    }
+}
+@media screen and (max-width: 1440px){
+    .container {
+         width: 73.5%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .login-section {
+        padding: 0em 2em 2em;
+    }
+    .login-section {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .login-section {
+        padding: 0.3em 2em 2em;
+        width: 44.5%;
+    }
+}
+@media screen and (max-width: 1080px){
+    .container {
+        width: 87.3%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .login-section {
+        width: 44%;
+        padding: 0em 2em 1.8em;
+    }
+}
+@media screen and (max-width: 1024px){
+    h1.wthree {
+        font-size: 2.8em;
+    }
+    .wthree-left-txt {
+        padding: 1.7em 2em 2em;
+    }
+}
+@media screen and (max-width: 991px){
+    .login-w3l-right {
+        width: 100%;
+        float: none;
+    }
+    .login-section {
+        width: 89.5%;
+        padding: 1em 2em 3em;
+    }
+    .container {
+        width: 62%;
+    }
+}
+@media screen and (max-width: 900px){
+    .container {
+        width: 64%;
+    }
+    .login-section {
+         width: 88.7%;
+    }
+}
+@media screen and (max-width: 800px){
+    .login-section {
+        width: 87.2%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 736px){
+    h1.wthree {
+        font-size: 2.7em;
+    }
+    .login-section {
+        width: 86.7%;
+    }
+}
+@media screen and (max-width: 667px){
+    .container {
+        width: 71%;
+    }
+    .login-section {
+        width: 86.2%;
+    }
+}
+@media screen and (max-width: 640px){
+    .wthree-left-txt {
+        padding: 1.7em 1em;
+    }
+    h1.wthree {
+        font-size: 2.5em;
+    }
+    .login-section {
+        width: 85.6%;
+    }
+}
+@media screen and (max-width: 600px){
+    .container {
+        width: 74%;
+    }
+    .login-section {
+        width: 85.3%;
+    }
+}
+@media screen and (max-width: 568px){
+    .login-section {
+        width: 84.2%;
+    }
+    h1.wthree {
+        margin: 0.7em 0 0;
+    }
+    .login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+        width: 83.5%;
+    }
+    .container {
+        margin: 2em auto;
+    }
+}
+@media screen and (max-width: 480px){
+    h1.wthree {
+        font-size: 2.3em;
+    }
+    .login-section {
+        width: 81.5%;
+    }
+    .login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+        width: 80.5%;
+    }
+    h3.form-head {
+        font-size: 1.8em;
+    }
+    label.w3layouts {
+       font-size: 1em;
+    }
+    p.footer {
+        padding: 0 2em 2em;
+        line-height: 1.5;
+    }
+}
+@media screen and (max-width: 414px){
+    h1.wthree {
+        font-size: 2.1em;
+    }
+    .login-w3l-right h2 {
+        font-size: 1.2em;
+    }
+    .agileits_social_list li a {
+        width: 124px;
+    }
+    .login-section {
+        width: 78%;
+    }
+    .login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+        width: 76.5%;
+    }
+}
+@media screen and (max-width: 384px){
+    h1.wthree {
+        font-size: 2em;
+    }
+    .login-w3l-right h2 {
+        font-size: 1.1em;
+    }
+    .agileits_social_list li a {
+        width: 113px;
+    }
+    .wthree-left-txt {
+        padding: 1em;
+    }
+    h3.form-head {
+        font-size: 1.5em;
+    }
+    .login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+        width: 74.5%;
+    }
+    .login-section {
+        width: 76.5%;
+    }
+    label.w3layouts {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 375px){
+    h1.wthree {
+        font-size: 1.8em;
+    }
+    .login-w3l-right h2 {
+        font-size: 1em;
+    }
+    .login-w3l-right h3 {
+        font-size: 0.9em;
+    }
+    .container {
+        width: 76%;
+    }
+    .agileits_social_list li a i {
+        line-height: 2em;
+    }
+    p.footer {
+       font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 320px){
+    h1.wthree {
+        font-size: 1.6em;
+    }
+    .container{
+        padding: 1em;
+        width:83%;
+        margin:1em auto;
+    }
+    .agileits_social_list li a {
+        width: 93px;
+    }
+    h3.form-head {
+        font-size: 1.3em;
+    }
+    .login-section{
+        width: 86.5%;
+        padding: 1em 1em 3em;
+    }
+    .login-section input[type="text"], .login-section input[type="password"], .login-section input[type="email"] {
+        width:73.5%;
+    }
+}
+/* -- //Responsive code -- */

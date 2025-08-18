@@ -1,0 +1,111 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Orphanage Donation Form a Responsive Widget Template :: w3layouts</title>
+<!-- Style-sheets -->
+<link rel="stylesheet" href="css/creditly.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- //Style-sheets -->
+<!-- web-fonts -->
+<link href="//fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- //web-fonts -->
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Orphanage Donation Form  Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta tag Keywords -->
+</head>
+<body>
+	<h1>Orphanage Donation Form</h1>
+	<div class="w3layouts">
+		<div class="donate_form_w3l">
+			<h5 class="center-w3ls">Donate Now</h5>
+			<h2 class="center-w3ls">Select an amount you like to donate?</h2>
+			 <form action="#" method="post">
+				<ul class="infor">
+					<li><label><input type="radio" name="dollar" value="$10" checked=""> $10.00</label></li>
+					<li><label><input type="radio" name="dollar" value="$15"> $20.00  </label></li>
+					<li><label><input type="radio" name="dollar" value="$20"> $40.00 </label></li>
+					<li><label><input type="radio" name="dollar" value="$25"> $50.00 </label></li>
+					<div class="clear"></div>
+					<li class="amount"><label><input type="radio" name="dollar" value="$50"> $50 <span><input type="text" placeholder="$"></span> </label></li>
+				</ul>
+			<div class="left-agileinfo">
+			<h5>Your information</h5>
+				<p>First Name </p>
+					<input type="text" name="Name" required="">
+				<p>Last Name </p>
+					<input type="text" name="Name" required="">
+				<p>Enter Your Email </p>
+					<input type="email" name="Email" required="">
+				<p>Your Number </p>
+					<input type="text" name="Number" required="">
+	        </div>
+			<div class="right-agileits-w3layouts">
+			<h5>your payment</h5>
+				<p>Card Number </p>
+					<input class="number credit-card-number form-control" type="text" name="number" maxlength="16"
+												  inputmode="numeric" autocomplete="cc-number" autocompletetype="cc-number" x-autocompletetype="cc-number" 
+												  placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;" required="">
+				<p>Cvv </p>
+					<input type="password" name="CVVNumber" id="CVVNumber" size="5" class="col_1 pl-start is-keypad" maxlength="3" placeholder="&#149;&#149;&#149" onselectstart="return false" onpaste="return false;" onkeyup="onlyNumericCVVNumberAllowed()" oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete="off" required="">
+				<p>Expiry date </p>
+					<input  id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+				<div class="clearfix"></div>
+					<input type="submit" value="Donate">
+			</div>														
+			</form>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+	<div class="footer-w3l">
+		<p class="agileinfo"> &copy; 2017 Orphanage Donation Form . All Rights Reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+	</div>
+	
+
+
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- creditly -->			
+			<script type="text/javascript" src="js/creditly.js"></script>
+<script type="text/javascript">
+    $(function() {
+      var creditly = Creditly.initialize(
+          '.creditly-wrapper .expiration-month-and-year',
+          '.creditly-wrapper .credit-card-number',
+          '.creditly-wrapper .security-code',
+          '.creditly-wrapper .card-type');
+
+      $(".creditly-card-form .submit").click(function(e) {
+        e.preventDefault();
+        var output = creditly.validate();
+        if (output) {
+          // Your validated credit card output
+          console.log(output);
+        }
+      });
+    });
+</script>
+<!--// creditly -->	
+<!-- Calendar -->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+
+</body>
+</html>

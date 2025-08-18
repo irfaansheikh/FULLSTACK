@@ -1,0 +1,186 @@
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multi Steps Form Widget Flat Responsive Widget Template :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Multi Steps Form Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //for-mobile-apps -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300italic,300,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+<script src="js/jquery-2.1.1.min.js"></script>
+
+</head>
+<body>
+	<div class="main">
+		<h1>Multi Steps Form Widget</h1>
+		<div class="content">
+			<div class="stepsForm">
+				<form method="post">
+					<div class="sf-steps">
+						<div class="sf-steps-content">
+							<div>
+								<span></span> Profile
+							</div>
+							<div>
+								<span></span> Account
+							</div>
+							<div>
+								<span></span> Details
+							</div>
+							<div>
+								<span></span> Profession
+							</div>
+						</div>
+					</div>                
+					<div class="sf-steps-form sf-radius"> 
+						
+						<ul class="sf-content"> <!-- form step one --> 
+							 <li>
+								<div class="sf_columns column_3">
+									<input type="text" name="name" placeholder="First Name" data-required="true">
+								</div>
+								<div class="sf_columns column_3">
+									<input type="text" name="surname" placeholder="Last Name" data-required="true">
+								</div>
+							 </li>
+							 <li>
+								<div class="sf_columns column_3">
+									<input type="text" placeholder="Phone" data-number="true">
+								</div>
+								
+							</li>
+							<li>
+								<div class="sf_columns column_3">
+									<div class="sf-radio">
+										Gender :  
+										<label><input type="radio" value="M" name="gender" data-required="true"><span></span> Female</label>
+										<label><input type="radio" value="F" name="gender" data-required="true"><span></span> Male</label>
+									</div>
+								</div>
+								
+							 </li>
+							 <li>
+								<div class="sf_columns column_6">
+									<textarea placeholder="Address" name="ADDRESS"></textarea>
+								</div>
+							 </li>
+							 
+						</ul>
+						   
+						<ul class="sf-content"> <!-- form step two --> 
+							 <li>
+								<div class="sf_columns column_3">
+									<input type="text" placeholder="Username" data-required="true">
+								</div>
+								<div class="sf_columns column_3">
+									<input type="text" placeholder="Email" data-required="true" data-email="true">
+								</div>
+							 </li>
+							 <li>
+								<div class="sf_columns column_3">
+									<input type="password" placeholder="Password" data-required="true" data-confirm="true">
+								</div>
+								<div class="sf_columns column_3">
+									<input type="password" placeholder="Re-Type Password" data-required="true" data-confirm="true">
+								</div>
+							 </li>
+							 <li>
+								<div class="sf_columns column_6">
+									<div class="sf-check">
+										<label><input type="checkbox" value="test" name="test" data-required="true"><span></span> By checking this box, I agree to the Terms & Conditions & Privacy Policy.</label>
+									</div>
+								</div>
+							 </li>
+						</ul>
+		
+						<ul class="sf-content"> <!-- form step tree --> 
+							 <li>
+								<div class="sf_columns column_3">
+									<label class="sf-select">
+										<select name="country" data-required="true">
+											<option value="" selected="selected" >Your Age</option>
+											<option value="de">0-17</option>
+											<option value="en">18-25</option>
+											<option value="us">25-50</option>
+										</select>
+										<span></span>
+									</label>
+								</div>
+								<div class="sf_columns column_3">
+									<label class="sf-select">
+										<select name="country" data-required="true">
+											<option value="" selected="selected" >Country</option>
+											<option value="de">India</option>
+											<option value="en">Britian</option>
+											<option value="us">China</option>
+											<option value="tr">Turkey</option>
+											<option value="jp">Spain</option>
+										</select>
+										<span></span>
+									</label>
+								</div>
+							 </li>
+						</ul>
+						<ul class="sf-content"> <!-- form step four --> 
+							 <li>
+								<div class="sf_columns column_3">
+									<label class="sf-select">
+										<select name="country" data-required="true">
+											<option value="" selected="selected" >Profession</option>
+											<option value="de">Designer</option>
+											<option value="en">Officer</option>
+											<option value="us">Clerk</option>
+										</select>
+										<span></span>
+									</label>
+								</div>
+								<div class="sf_columns column_6">
+									<textarea placeholder="Address" name="ADDRESS"></textarea>
+								</div>
+							 </li>
+						</ul>
+					</div>
+					
+					<div class="sf-steps-navigation sf-align-right">
+						<span id="sf-msg" class="sf-msg-error"></span>
+						<button id="sf-prev" type="button" class="sf-button">Previous</button>
+						<button id="sf-next" type="button" class="sf-button">Next</button>
+					</div>
+				</form>
+				<script>
+					$(document).ready(function(e) {
+						
+						$(".stepsForm").stepsForm({
+							width			:'100%',
+							active			:0,
+							errormsg		:'Check faulty fields.',
+							sendbtntext		:'Create Account',
+						}); 
+						
+						$(".container .themes>span").click(function(e) {
+							$(".container .themes>span").removeClass("selectedx");
+							$(this).addClass("selectedx");
+							$(".stepsForm").removeClass().addClass("stepsForm");
+							$(".stepsForm").addClass("sf-theme-"+$(this).attr("data-value"));
+						});
+					});
+				</script>
+
+			</div>
+
+		</div>
+		<p class="footer">© 2016 Multi Steps Form Widget. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+	</div>
+</body>
+</html>

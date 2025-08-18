@@ -1,0 +1,116 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>Envelope Subscribe Form Responsive Widget Template :: w3layouts</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Envelope Subscribe Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements"
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/jquery.countdown.css" />
+	<!-- Countdown-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Italianno&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Reem+Kufi&amp;subset=arabic" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- title -->
+	<h1><span>E</span>nvelope <span>S</span>ubscribe <span>F</span>orm</h1>
+	<!-- title -->
+	<div class="content-w3l">
+		<h2>Subscribe To Our Mail
+			<i class="fas fa-hand-point-down"></i>
+		</h2>
+		<p class="sub-text">Subscribe to our mailing list to get the updates to your email inbox...</p>
+		<div class="all_container">
+			<div class="container">
+				<div class="envelope"></div>
+				<div class="flip"></div>
+				<div class="letter">
+					<div class="contact-w3lsleft">
+						<form action="#" method="post">
+							<input type="email" name="Email" placeholder="Email" required="">
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="button-w3ls">
+				<button id="open">open</button>
+				<button id="close">close</button>
+			</div>
+		</div>
+		<!-- copyright -->
+		<p class="copy-right-agile">&copy; 2018 Envelope Subscribe Form. All rights reserved | Design by
+			<a href="http://w3layouts.com">W3layouts</a>
+		</p>
+		<!-- //copyright -->
+	</div>
+
+
+	<!-- Jquery -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //Jquery -->
+	<!-- envelope effect -->
+	<script>
+		//variables
+		let flip = document.querySelector('.flip');
+		let letter = document.querySelector('.letter');
+		let btnOpen = document.querySelector('#open');
+		let btnClose = document.querySelector('#close');
+
+		//EventListner
+		btnOpen.addEventListener('click', open);
+		btnClose.addEventListener('click', close);
+
+		//open
+		function open() {
+			flip.classList.add('open');
+			flip.classList.remove('close');
+			setTimeout(function () {
+				letter.classList.add('letterOpen');
+				letter.classList.remove('letterClose');
+				letter.style.zIndex = '7';
+			}, 400);
+		}
+
+		//close
+		function close() {
+			letter.classList.remove('letterOpen');
+			letter.classList.add('letterClose');
+			setTimeout(function () {
+				flip.classList.remove('open');
+				flip.classList.add('close');
+				letter.style.zIndex = '5';
+			}, 300);
+		}
+	</script>
+	<!-- //envelope effect -->
+	
+</body>
+
+</html>

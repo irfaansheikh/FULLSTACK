@@ -1,0 +1,537 @@
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*-- Reset-Code --*/
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+	article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+	ol,ul{list-style:none;margin:0px;padding:0px;}
+	blockquote,q{quotes:none;}
+	blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+	table{border-collapse:collapse;border-spacing:0;}
+	/* start editing from here */
+	a{text-decoration:none;}
+	.txt-rt{text-align:right;}/* text align right */
+	.txt-lt{text-align:left;}/* text align left */
+	.txt-center{text-align:center;}/* text align center */
+	.float-rt{float:right;}/* float right */
+	.float-lt{float:left;}/* float left */
+	.clear{clear:both;}/* clear float */
+	.pos-relative{position:relative;}/* Position Relative */
+	.pos-absolute{position:absolute;}/* Position Absolute */
+	.vertical-base{vertical-align:baseline;}/* vertical align baseline */
+	.vertical-top{vertical-align:top;}/* vertical align top */
+	nav.vertical ul li{display:block;}/* vertical menu */
+	nav.horizontal ul li{display: inline-block;}/* horizontal menu */
+	img{max-width:100%;}
+/*-- //Reset-Code --*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/bg.jpg)no-repeat center top;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Carter One', cursive;
+	
+}
+h1 {
+    font-size: 40px;
+    color: #fff;
+    margin: 40px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.w3layouts {
+    width: 50%;
+    margin: 0 auto;
+	padding:2em;
+	background:rgba(17, 19, 19, 0.73);
+}
+.left-agileinfo, .right-agileits-w3layouts {
+    width: 41%;
+    float: left;
+    margin: 20px 10px 0;
+    padding: 25px;
+    background: rgba(107, 113, 113, 0.28);
+}
+.creditly-wrapper .form-control {
+    padding: 1em 0.8em!important;
+    margin-bottom: 12px !important;
+    outline: none;
+}
+/*--donate_form --*/
+.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+    padding: 8px 11px;
+    display: block;
+    width: 93%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 3px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 3px #ffffff;
+    -moz-box-shadow: inset 0px 0px 3px #ffffff;
+    -o-box-shadow: inset 0px 0px 3px #ffffff;
+    -webkit-appearance: none;
+}
+.donate_form_w3l form input[type="submit"] {
+    text-transform: capitalize;
+    background: #fc636b;
+    color: #fff;
+    padding: .7em 0em;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 2em;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.donate_form_w3l form input[type="submit"]:hover {
+	background:#3be8b0;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+.donate_form_w3l form textarea{
+	padding:8px 11px;
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color:#555;
+    font-size: 1em;
+    box-shadow: inset 0px 0px 3px #555;
+    -webkit-box-shadow: inset 0px 0px 3px #555;
+    -moz-box-shadow: inset 0px 0px 3px #555;
+    -o-box-shadow: inset 0px 0px 3px #555;
+    -webkit-appearance: none;
+	height:75px;
+}
+ul.infor label {
+    font-weight: 600;
+}
+ul.infor li {
+    display: inline-block;
+    /* border: 1px solid #fff; */
+    width: 12%;
+    margin: 0px 6px;
+    padding: 10px 31px;
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    background: #fc636b;
+    letter-spacing: 1px;
+}
+ul.infor li label {
+	cursor:pointer;
+}
+li.amount {
+    width: 23%!important;
+    margin-top: 1em!important;
+}
+li.amount input[type="text"] {
+    display: inline-block;
+    width: 50%!important;
+    margin-left: 10px;
+}
+.donate_form_w3l p {
+    color: #e6e6e6;
+    font-size: 0.84em;
+    margin: 9px 5px 7px;
+    letter-spacing: .7px;
+}
+ul.infor {
+    margin: 1em auto;
+    text-align: center;
+}
+.donate_form_w3l h5 {
+    color: #3be8b0;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+.donate_form_w3l h2 {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.center-w3ls{
+	text-align:center!important;
+}
+/*-- //donate_form --*/
+.footer-w3l {
+    margin: 30px 0;
+}
+.footer-w3l p{
+	font-size:14px;
+	text-align:center;
+	color:#fff;
+	line-height:28px;
+	letter-spacing: 1px;
+}
+.footer-w3l p a{
+	color:#3be8b0;
+}
+.footer-w3l p a:hover{
+	text-decoration:underline;
+}
+
+#ui-datepicker-div {
+    border: none!important;
+}
+.ui-datepicker .ui-datepicker-header {
+    background: #fc636b!Important;
+}
+/*--placeholder-color--*/
+
+::-webkit-input-placeholder {
+	color:#fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:#fff !important; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color:#fff !important;
+}
+:-ms-input-placeholder {  
+	color:#fff !important;
+}
+/*--//placeholder-color--*/
+
+/*--responsive--*/
+@media(max-width:1600px){
+	
+}
+@media(max-width:1440px){
+	.w3layouts {
+		width: 55%;
+		
+	}
+}
+@media(max-width:1366px){
+	.w3layouts {
+		width: 58%;
+	}
+	li.amount {
+		width: 25%!important;
+	}
+}
+@media(max-width:1280px){
+	.w3layouts {
+		width: 62%;
+	}
+}
+@media(max-width:1080px){
+	.w3layouts {
+		width: 74%;
+	}
+}
+@media(max-width:1050px){
+	.left-agileinfo, .right-agileits-w3layouts {
+			width: 40%;
+	}
+	h1 {
+		font-size: 37px;
+		margin: 35px 0px;
+		letter-spacing: 3px;
+	}
+}
+@media(max-width:1024px){
+	.left-agileinfo, .right-agileits-w3layouts {
+		margin: 10px 10px 0;
+	}
+}
+@media(max-width:991px){
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 92.4%;
+	}
+}
+@media(max-width:900px){
+	li.amount {
+		width: 28%!important;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 38%;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 91.4%;
+	}
+	.donate_form_w3l h5 {
+		font-size: 1.2em;
+	}
+	.donate_form_w3l h2 {
+		font-size: 16px;
+		letter-spacing: 1.5px;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		font-size: 14px;
+	}
+}
+@media(max-width:800px){
+	ul.infor li {
+		width: 14%;
+		margin: 0px 5px;
+		padding: 10px 25px;
+	}
+	li.amount {
+		width: 32%!important;
+	}
+	.w3layouts {
+		width: 75%;
+	}
+	.donate_form_w3l h2 {
+		font-size: 15px;
+	}
+	h1 {
+		font-size: 32px;
+		margin: 33px 0px;
+		letter-spacing: 4px;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 90.4%;
+	}
+	.donate_form_w3l form input[type="submit"] {
+		padding: .85em 0em;
+		font-size: 12px;
+		margin-top: 2.5em;
+	}
+	.donate_form_w3l h5 {
+		font-size: 1.08em;
+	}
+}
+@media(max-width:768px){
+	ul.infor li {
+		padding: 10px 24px;
+	}
+	.w3layouts {
+		width: 78%;
+	}
+	h1 {
+		margin: 110px 0px 40px;
+	}
+	.footer-w3l {
+		margin: 50px 0;
+	}
+}
+@media(max-width:767px){
+	h1 {
+		margin: 30px 0px;
+		font-size: 30px;
+	}
+	.footer-w3l {
+		margin: 25px 0;
+	}
+}
+@media(max-width:736px){
+	.w3layouts {
+		padding: 1.5em;
+		width: 82%;
+	}
+	ul.infor li {
+		padding: 10px 20px;
+		width: 16%;
+		margin: 0px 2px;
+	}
+	li.amount {
+		width: 35%!important;
+	}
+	ul.infor li {
+		font-size: 0.84em;
+	}
+}
+@media(max-width:667px){
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 39%;
+		margin: 0px 4px 0;
+	}
+	.donate_form_w3l h2 {
+		font-size: 13px;
+		letter-spacing: 1.7px;
+	}
+}
+@media(max-width:640px){
+	ul.infor li {
+		padding: 10px 19px;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 38%;
+		padding: 26px;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 89%;
+	}
+	.donate_form_w3l p {
+		font-size: 0.8em;
+		margin: 9px 5px 5px;
+	}
+	.donate_form_w3l form input[type="submit"] {
+		margin-top: 2.26em;
+	}
+}
+@media(max-width:600px){
+	ul.infor li {
+		padding: 10px 18px;
+	}
+	li.amount {
+		width: 37%!important;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 39.1%;
+		padding: 22px;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 88%;
+	}
+	.footer-w3l {
+		margin: 20px 15px;
+	}
+	h1 {
+		font-size: 25px;
+	}
+}
+@media(max-width:568px){
+	ul.infor li {
+		padding: 10px 14px;
+		width: 17%;
+	}
+	li.amount {
+		width: 40%!important;
+		margin-top: .6em!important;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 85.1%;
+		padding: 25px;
+		float:none;
+		margin:0 auto;
+	}
+	.right-agileits-w3layouts {
+		margin-top:1em;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 94.3%;
+	}
+}
+@media(max-width:480px){
+	ul.infor li {
+		padding: 8px 7px;
+		width: 20%;
+		margin: 0px 1px;
+	}
+	li.amount {
+		width: 47%!important;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 93.3%;
+	}
+	h1 {
+		font-size: 22px;
+	}
+}
+@media(max-width:414px){
+	h1 {
+		font-size: 21px;
+		letter-spacing: 3px;
+	}
+	ul.infor li {
+		width: 43%;
+	}
+	.w3layouts {
+		width: 75%;
+	}
+	ul.infor li:nth-child(1),ul.infor li:nth-child(2){
+		margin-bottom:5px;
+	}
+	li.amount {
+		width: 59%!important;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 91.3%;
+	}
+	.footer-w3l p {
+			font-size: 13px;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 83.1%;
+	}
+}
+@media(max-width:384px){
+	h1 {
+		font-size: 19px;
+		letter-spacing: 2px;
+		margin: 35px 0px;
+	}
+	li.amount {
+		width: 64%!important;
+	}
+	.donate_form_w3l h2 {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.donate_form_w3l h5 {
+		font-size: 1em;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 81.1%;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 90.3%;
+	}
+}
+@media(max-width:375px){
+	.w3layouts {
+		width: 77%;
+	}
+}
+@media(max-width:320px){
+	h1 {
+		font-size: 17px;
+		letter-spacing: 1.5px;
+		margin: 25px 0px;
+	}
+	ul.infor li {
+		width: 42%;
+	}
+	.w3layouts {
+		width: 79%;
+		padding: 1.3em;
+	}
+	.donate_form_w3l h2 {
+		font-size: 12px;
+		letter-spacing: .6px;
+	}
+	li.amount {
+		width: 74%!important;
+	}
+	.left-agileinfo, .right-agileits-w3layouts {
+		width: 83%;
+		padding: 20px;
+	}
+	.footer-w3l {
+		margin: 20px 23px;
+	}
+	.donate_form_w3l form input[type="text"], .donate_form_w3l form input[type="email"], .donate_form_w3l form input[type="password"] {
+		width: 89%;
+	}
+}
+/*--responsive--*/
