@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+w3layouts.com	TRUE	/	FALSE	1999999999	SESSnsl	nsl686d16e9852aa8.59761355
+w3layouts.com	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP%20Cookie%20check
+w3layouts.com	TRUE	/	FALSE	1999999999	w3layouts_user	deleted
+
